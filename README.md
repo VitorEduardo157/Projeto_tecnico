@@ -21,8 +21,7 @@ Processo e Desafios Superados:
     1.  O código foi desenvolvido em TypeScript para se conectar à API do Resend.
     2.  A chave de API foi armazenada de forma segura usando os Secrets do Supabase.
     3.  Um Database Webhook foi configurado para disparar a função no evento de ‘INSERT’ na tabela ‘orders’.
-   4.  O erro subsequente, `No items found for this order`, foi diagnosticado como uma inconsistência nos dados de teste.
-
+    4.  O erro subsequente, `No items found for this order`, foi diagnosticado como uma inconsistência nos dados de teste.
     5.  Diagnóstico Final: Apesar da configuração correta, a entrega do e-mail não ocorreu. O problema que eu diagnostiquei foi como uma falha no runtime Deno do Supabase ao carregar a variável de ambiente `RESEND_API_KEY` em tempo de execução, o código está correto e pode ser inspecionado no repositório.
 
 4 - Exportação de Pedido para CSV (‘export-order-csv’)
