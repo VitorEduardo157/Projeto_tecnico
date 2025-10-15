@@ -1,4 +1,4 @@
-Desafio Técnico Backend | Vitor Eduardo
+Desafio Técnico | Vitor Eduardo
 
 O projeto foi um implementado com Supabase como plataforma principal, utilizando seu banco de dados PostgreSQL, o sistema de segurança RLS, para automação e Edge Functions para a lógica de negócio, este documento detalha não apenas os resultados, mas também o processo de depuração e as decisões técnicas que tomei para garantir uma solução robusta e segura, a base do projeto, o banco de dados, está totalmente funcional e atende a todos os critérios de segurança e otimização.
 
